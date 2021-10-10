@@ -21,6 +21,7 @@ const ContactSection = () => {
         </div>
       </div>
       <ContactUsForm />
+      <p align="center">© 2021 MIANS. All rights reserved.</p>
     </div>
   );
 };

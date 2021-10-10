@@ -65,11 +65,9 @@ export const ContactUsForm = () => {
             Send <b>{` >`}</b>
           </button>
         </div>
-        <br/>
-        <br/>
-        <p align="center "> All rights reserved &copy; MIANS</p>
         <br />
         <br />
+
         <br />
       </form>
     </div>
