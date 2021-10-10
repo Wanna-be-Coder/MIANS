@@ -1,0 +1,17 @@
+.tabSections {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.half {
+  max-width: 50%;
+  text-align: left;
+  min-width: 418.7px;
+  min-height: 421.18px;
+}
