@@ -7,7 +7,7 @@ import {
   designText,
   webDevText,
 } from "./paragraphs";
-// import Image from "next/image";
+
 import BrandGuideLineImage from "./brandGuideLine.svg";
 import BusinessDevImage from "./BUSINESSDEV.svg";
 import DesignImage from "./DESIGN.svg";
@@ -55,6 +55,7 @@ export const ServiceSection = () => {
       <br />
 
       <div className={style.description}>
+        
         <p className={style.half}>
           {" "}
           <br /> <br />
@@ -66,6 +67,7 @@ export const ServiceSection = () => {
             ? designText
             : webDevText}
         </p>
+      
         <div>
           <img
             src={
@@ -78,9 +80,7 @@ export const ServiceSection = () => {
                 : WebAppImage
             }
             alt="BrandGuideLine"
-            className={style.half}
-            width={418.7}
-            height={421.18}
+            className={style.halfi}
           />
         </div>
       </div>
