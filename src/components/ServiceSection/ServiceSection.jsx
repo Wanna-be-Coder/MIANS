@@ -33,7 +33,7 @@ export const ServiceSection = () => {
       <div className={style.tabSections}>
         <TabButton
           name="Brand Strategy"
-          handleClick={handleClick}
+          handleClick={handleClick, #description}
           selected={selected}
         />
         <TabButton
@@ -53,37 +53,38 @@ export const ServiceSection = () => {
         />
       </div>
       <br />
-
-      <div className={style.description}>
-        <p className={style.half}>
-          {" "}
-          <br /> <br />
-          {selected === "Brand Strategy"
-            ? brandGuideLineText
-            : selected === "Business Development"
-            ? businessDevText
-            : selected === "Design"
-            ? designText
-            : webDevText}
-        </p>
-        <div>
-          <img
-            src={
-              selected === "Brand Strategy"
-                ? BrandGuideLineImage
-                : selected === "Business Development"
-                ? BusinessDevImage
-                : selected === "Design"
-                ? DesignImage
-                : WebAppImage
-            }
-            alt="BrandGuideLine"
-            className={style.half}
-            width={418.7}
-            height={421.18}
-          />
+      <section id="#description">
+        <div className={style.description}>
+          <p className={style.half}>
+            {" "}
+            <br /> <br />
+            {selected === "Brand Strategy"
+              ? brandGuideLineText
+              : selected === "Business Development"
+              ? businessDevText
+              : selected === "Design"
+              ? designText
+              : webDevText}
+          </p>
+          <div>
+            <img
+              src={
+                selected === "Brand Strategy"
+                  ? BrandGuideLineImage
+                  : selected === "Business Development"
+                  ? BusinessDevImage
+                  : selected === "Design"
+                  ? DesignImage
+                  : WebAppImage
+              }
+              alt="BrandGuideLine"
+              className={style.half}
+              width={418.7}
+              height={421.18}
+            />
+          </div>
         </div>
-      </div>
+      </section>
       <br />
       <br />
     </div>
