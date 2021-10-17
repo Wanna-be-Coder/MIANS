@@ -33,7 +33,7 @@ export const ServiceSection = () => {
       <div className={style.tabSections}>
         <TabButton
           name="Brand Strategy"
-          handleClick={handleClick, #description}
+          handleClick={handleClick}
           selected={selected}
         />
         <TabButton
@@ -53,7 +53,7 @@ export const ServiceSection = () => {
         />
       </div>
       <br />
-      <section id="#description">
+      <section id="description">
         <div className={style.description}>
           <p className={style.half}>
             {" "}
