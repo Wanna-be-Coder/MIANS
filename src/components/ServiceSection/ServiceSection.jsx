@@ -7,7 +7,7 @@ import {
   designText,
   webDevText,
 } from "./paragraphs";
-// import Image from "next/image";
+
 import BrandGuideLineImage from "./brandGuideLine.svg";
 import BusinessDevImage from "./BUSINESSDEV.svg";
 import DesignImage from "./DESIGN.svg";
