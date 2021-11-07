@@ -11,9 +11,10 @@ const TabButton = ({ name, handleClick, selected }) => {
       color: "#fafeff",
     };
   }
+  const mobile = window.screen.width > 1284;
   return (
     <div>
-      <a href="#description">
+      <a href={mobile ? "#description" : ""}>
         <button
           className={`tabButton`}
           style={Buttonstyle}
