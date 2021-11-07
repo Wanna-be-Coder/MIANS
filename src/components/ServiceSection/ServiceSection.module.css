@@ -13,6 +13,16 @@
 .half {
   max-width: 50%;
   text-align: left;
-  min-width: 418.7px;
+}
+@media only screen and (max-width: 769px) {
+  /* For mobile phones: */
+  .half {
+    max-width: 100%;
+    text-align: left;
+  }
+}
+.halfi {
+  /* min-width: 417px; */
   min-height: 421.18px;
 }
+

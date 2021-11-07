@@ -13,14 +13,16 @@ const TabButton = ({ name, handleClick, selected }) => {
   }
   return (
     <div>
-      <button
-        className={`tabButton`}
-        style={Buttonstyle}
-        onClick={() => handleClick(name)}
-      >
-        {" "}
-        <h4 style={textStyle}>{name}</h4>
-      </button>
+      <a href="#description">
+        <button
+          className={`tabButton`}
+          style={Buttonstyle}
+          onClick={() => handleClick(name)}
+        >
+          {" "}
+          <h4 style={textStyle}>{name}</h4>
+        </button>
+      </a>
     </div>
   );
 };
