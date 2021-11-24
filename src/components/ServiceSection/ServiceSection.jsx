@@ -30,61 +30,68 @@ export const ServiceSection = () => {
         </p>
       </div>
       <br />
-      <div className={style.tabSections}>
-        <TabButton
-          name="Brand Strategy"
-          handleClick={handleClick}
-          selected={selected}
-        />
-        <TabButton
-          name="Business Development"
-          handleClick={handleClick}
-          selected={selected}
-        />
-        <TabButton
-          name="Design"
-          handleClick={handleClick}
-          selected={selected}
-        />
-        <TabButton
-          name="Web Application"
-          handleClick={handleClick}
-          selected={selected}
-        />
-      </div>
-      <br />
-      <section id="description">
-        <div className={style.description}>
-          <p className={style.half}>
-            {" "}
-            <br /> <br />
-            {selected === "Brand Strategy"
-              ? brandGuideLineText
-              : selected === "Business Development"
-              ? businessDevText
-              : selected === "Design"
-              ? designText
-              : webDevText}
-          </p>
-          <div>
-            <img
-              src={
-                selected === "Brand Strategy"
-                  ? BrandGuideLineImage
-                  : selected === "Business Development"
-                  ? BusinessDevImage
-                  : selected === "Design"
-                  ? DesignImage
-                  : WebAppImage
-              }
-              alt="BrandGuideLine"
-              className={style.half}
-              width={418.7}
-              height={421.18}
-            />
-          </div>
+
+      <div id="description">
+        <div className={style.tabSections}>
+          <TabButton
+            name="Brand Strategy"
+            handleClick={handleClick}
+            selected={selected}
+          />
+          <TabButton
+            name="Business Development"
+            handleClick={handleClick}
+            selected={selected}
+          />
+          <TabButton
+            name="Design"
+            handleClick={handleClick}
+            selected={selected}
+          />
+          <TabButton
+            name="Web Application"
+            handleClick={handleClick}
+            selected={selected}
+          />
         </div>
-      </section>
+        <br />
+
+        <section>
+          <div className={style.description}>
+            <p className={style.half}>
+              {" "}
+              <br /> <br />
+              <span>
+                {selected === "Brand Strategy"
+                  ? brandGuideLineText
+                  : selected === "Business Development"
+                  ? businessDevText
+                  : selected === "Design"
+                  ? designText
+                  : webDevText}
+              </span>
+            </p>
+
+            <div>
+              <img
+                src={
+                  selected === "Brand Strategy"
+                    ? BrandGuideLineImage
+                    : selected === "Business Development"
+                    ? BusinessDevImage
+                    : selected === "Design"
+                    ? DesignImage
+                    : WebAppImage
+                }
+                alt="BrandGuideLine"
+                className={style.half}
+                width={418.7}
+                height={421.18}
+              />
+            </div>
+          </div>
+        </section>
+      </div>
       <br />
       <br />
     </div>

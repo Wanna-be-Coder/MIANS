@@ -12,7 +12,7 @@ const TabButton = ({ name, handleClick, selected }) => {
     };
   }
   return (
-    <div>
+    <div className="button">
       <a href="#description">
         <button
           className={`tabButton`}

@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   gap: 2rem;
 }
+
 .description {
   display: flex;
   justify-content: center;
@@ -24,4 +25,3 @@
   /* min-width: 417px; */
   min-height: 421.18px;
 }
-
