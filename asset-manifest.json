@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fb7d099.chunk.css",
-    "main.js": "/static/js/main.fd435439.chunk.js",
-    "main.js.map": "/static/js/main.fd435439.chunk.js.map",
+    "main.css": "/static/css/main.42055bc4.chunk.css",
+    "main.js": "/static/js/main.6351dd76.chunk.js",
+    "main.js.map": "/static/js/main.6351dd76.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f064ff51.js",
     "runtime-main.js.map": "/static/js/runtime-main.f064ff51.js.map",
-    "static/js/2.c9fcac41.chunk.js": "/static/js/2.c9fcac41.chunk.js",
-    "static/js/2.c9fcac41.chunk.js.map": "/static/js/2.c9fcac41.chunk.js.map",
+    "static/js/2.60c342d9.chunk.js": "/static/js/2.60c342d9.chunk.js",
+    "static/js/2.60c342d9.chunk.js.map": "/static/js/2.60c342d9.chunk.js.map",
     "static/js/3.fecc0189.chunk.js": "/static/js/3.fecc0189.chunk.js",
     "static/js/3.fecc0189.chunk.js.map": "/static/js/3.fecc0189.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8fb7d099.chunk.css.map": "/static/css/main.8fb7d099.chunk.css.map",
-    "static/js/2.c9fcac41.chunk.js.LICENSE.txt": "/static/js/2.c9fcac41.chunk.js.LICENSE.txt",
-    "static/media/BUSINESSDEV.fd08ca7b.svg": "/static/media/BUSINESSDEV.fd08ca7b.svg",
-    "static/media/DESIGN.c2c47d74.svg": "/static/media/DESIGN.c2c47d74.svg",
-    "static/media/WEBAPP.eeeeb049.svg": "/static/media/WEBAPP.eeeeb049.svg",
-    "static/media/background-image.68528fc1.svg": "/static/media/background-image.68528fc1.svg",
-    "static/media/brandGuideLine.1449449d.svg": "/static/media/brandGuideLine.1449449d.svg"
+    "static/css/main.42055bc4.chunk.css.map": "/static/css/main.42055bc4.chunk.css.map",
+    "static/js/2.60c342d9.chunk.js.LICENSE.txt": "/static/js/2.60c342d9.chunk.js.LICENSE.txt",
+    "static/media/BUSINESSDEV.0f6941f4.svg": "/static/media/BUSINESSDEV.0f6941f4.svg",
+    "static/media/DESIGN.64c860b4.svg": "/static/media/DESIGN.64c860b4.svg",
+    "static/media/WEBAPP.867a6e21.svg": "/static/media/WEBAPP.867a6e21.svg",
+    "static/media/background-image.f6a75847.svg": "/static/media/background-image.f6a75847.svg",
+    "static/media/brandGuideLine.e212b44e.svg": "/static/media/brandGuideLine.e212b44e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f064ff51.js",
-    "static/js/2.c9fcac41.chunk.js",
-    "static/css/main.8fb7d099.chunk.css",
-    "static/js/main.fd435439.chunk.js"
+    "static/js/2.60c342d9.chunk.js",
+    "static/css/main.42055bc4.chunk.css",
+    "static/js/main.6351dd76.chunk.js"
   ]
 }
