@@ -79,3 +79,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+.imgStyle {
+  max-width: 100%;
+  max-height: 100%;
+}

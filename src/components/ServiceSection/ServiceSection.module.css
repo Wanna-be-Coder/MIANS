@@ -7,22 +7,33 @@
 
 .description {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
 .half {
-  max-width: 50%;
   text-align: left;
 }
 @media only screen and (max-width: 769px) {
-  /* For mobile phones: */
-  .half {
-    max-width: 100%;
-    text-align: left;
+  .descriptionText {
+    text-align: center;
+    min-width: 100%;
+  }
+  .descriptionImg {
+    text-align: center;
+    min-width: 100%;
+    overflow: hidden;
   }
 }
 .halfi {
-  /* min-width: 417px; */
-  min-height: 421.18px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.descriptionText {
+  width: 60%;
+}
+.descriptionImg {
+  width: 40%;
+  object-fit: cover;
 }

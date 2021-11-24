@@ -58,22 +58,24 @@ export const ServiceSection = () => {
 
         <section>
           <div className={style.description}>
-            <p className={style.half}>
-              {" "}
-              <br /> <br />
-              <span>
-                {selected === "Brand Strategy"
-                  ? brandGuideLineText
-                  : selected === "Business Development"
-                  ? businessDevText
-                  : selected === "Design"
-                  ? designText
-                  : webDevText}
-              </span>
-            </p>
-
-            <div>
+            <div className={style.descriptionText}>
+              <p>
+                {" "}
+                <br /> <br />
+                <span>
+                  {selected === "Brand Strategy"
+                    ? brandGuideLineText
+                    : selected === "Business Development"
+                    ? businessDevText
+                    : selected === "Design"
+                    ? designText
+                    : webDevText}
+                </span>
+              </p>
+            </div>
+            <div className={style.descriptionImg}>
               <img
+                className={"imgStyle"}
                 src={
                   selected === "Brand Strategy"
                     ? BrandGuideLineImage
@@ -83,10 +85,7 @@ export const ServiceSection = () => {
                     ? DesignImage
                     : WebAppImage
                 }
-                alt="BrandGuideLine"
-                className={style.half}
-                width={418.7}
-                height={421.18}
+                alt={selected}
               />
             </div>
           </div>

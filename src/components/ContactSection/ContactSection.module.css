@@ -47,6 +47,11 @@
   .name {
     width: 607px;
   }
+  .caseStudyContent {
+    /* display: flex; */
+    margin: 0rem;
+    /* justify-content: space-around; */
+  }
 }
 
 .email {
