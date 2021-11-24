@@ -68,18 +68,6 @@ p {
   perspective: 1000px;
   transform-origin: center bottom 0px;
   transform: matrix(1, 0, 0, 1, 0, 0);
-  /* color: #9ec1d2;
-  background: #fff;
-  width: 282px;
-  height: 180px;
-  text-transform: uppercase;
-  font-size: 6px;
-  letter-spacing: 1px;
-  font-weight: 200;
-  border: 1px solid #9ec1d2;
-  border-radius: 100px;
-  padding: 20px 50px;
-  transition-duration: 0.5s; */
 }
 .tabButton:hover {
   transform: matrix(0.95, 0, 0, 0.95, 0, 0);

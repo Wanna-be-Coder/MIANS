@@ -1,3 +1,4 @@
+/* eslint-disable no-script-url */
 import React from "react";
 
 const TabButton = ({ name, handleClick, selected }) => {
@@ -6,14 +7,16 @@ const TabButton = ({ name, handleClick, selected }) => {
   if (name === selected) {
     Buttonstyle = {
       backgroundColor: "#50505f",
+      transform: "matrix(0.95, 0, 0, 0.95, 0, 0)",
     };
     textStyle = {
       color: "#fafeff",
     };
   }
+  const mobile = window.screen.width <= 600;
   return (
     <div className="button">
-      <a href="#description">
+      <a href={mobile ? "#description" : "javascript:void(0)"}>
         <button
           className={`tabButton`}
           style={Buttonstyle}
