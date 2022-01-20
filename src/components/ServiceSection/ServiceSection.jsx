@@ -12,15 +12,32 @@ import BrandGuideLineImage from "./brandGuideLine.svg";
 import BusinessDevImage from "./BUSINESSDEV.svg";
 import DesignImage from "./DESIGN.svg";
 import WebAppImage from "./WEBAPP.svg";
+import "./ServiceSection.module.css";
 
 export const ServiceSection = () => {
   const [selected, setselected] = useState("Brand Strategy");
+  const [fade, setFade] = useState(true);
+
   const handleClick = (text) => {
+    setFade(true);
     setselected(text);
   };
+  const handleAnimationEnd = () => {
+    console.log("animation ended");
+    setFade(false);
+  };
+  // let descriptionClass = {
+  //   ...style.descriptionText,
+  //   ...style.slideLeft,
+  // };
+
+  // useEffect(() => {
+  //   if (fade) {
+  //   }
+  // }, [fade]);
   return (
     <div>
-      <div className="logo">
+      <div className='logo'>
         <h1>Our Service</h1>
         <p style={{ textAlign: "center" }}>
           We are a one stop solution for all your digital needs. Our main
@@ -31,34 +48,45 @@ export const ServiceSection = () => {
       </div>
       <br />
 
-      <div id="description">
+      <div id='description'>
         <div className={style.tabSections}>
           <TabButton
-            name="Brand Strategy"
+            name='Brand Strategy'
             handleClick={handleClick}
             selected={selected}
+            handleAnimationEnd={handleAnimationEnd}
           />
           <TabButton
-            name="Business Development"
+            name='Business Development'
             handleClick={handleClick}
             selected={selected}
+            handleAnimationEnd={handleAnimationEnd}
           />
           <TabButton
-            name="Design"
+            name='Design'
             handleClick={handleClick}
             selected={selected}
+            handleAnimationEnd={handleAnimationEnd}
           />
           <TabButton
-            name="Web Application"
+            name='Web Application'
             handleClick={handleClick}
             selected={selected}
+            handleAnimationEnd={handleAnimationEnd}
           />
         </div>
         <br />
 
         <section>
           <div className={style.description}>
-            <div className={style.descriptionText}>
+            <div
+              className={
+                fade
+                  ? [style.descriptionText, style.slideLeft].join(" ")
+                  : style.descriptionText
+              }
+              onAnimationEnd={() => handleAnimationEnd()}
+            >
               <p>
                 {" "}
                 <br /> <br />
@@ -73,9 +101,16 @@ export const ServiceSection = () => {
                 </span>
               </p>
             </div>
-            <div className={style.descriptionImg}>
+            <div
+              className={
+                fade
+                  ? [style.descriptionImg, style.slideRight].join(" ")
+                  : style.descriptionImg
+              }
+              onAnimationEnd={() => handleAnimationEnd()}
+            >
               <img
-                className="imgstyle"
+                className='imgstyle'
                 src={
                   selected === "Brand Strategy"
                     ? BrandGuideLineImage
