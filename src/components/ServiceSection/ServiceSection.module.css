@@ -22,11 +22,15 @@
 
 .descriptionText {
   width: 60%;
-  animation: slide_left 1.8s ease-in-out;
 }
 .descriptionImg {
   width: 40%;
   object-fit: cover;
+}
+.slideLeft {
+  animation: slide_left 1.8s ease-in-out;
+}
+.slideRight {
   animation: slide_right 1.8s ease-in-out;
 }
 

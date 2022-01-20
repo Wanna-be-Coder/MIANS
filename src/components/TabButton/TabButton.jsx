@@ -15,7 +15,7 @@ const TabButton = ({ name, handleClick, selected }) => {
   }
   const mobile = window.screen.width <= 600;
   return (
-    <div className="button">
+    <div className='button'>
       <a href={mobile ? "#description" : "javascript:void(0)"}>
         <button
           className={`tabButton`}
