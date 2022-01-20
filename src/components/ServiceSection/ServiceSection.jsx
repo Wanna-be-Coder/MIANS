@@ -59,7 +59,7 @@ export const ServiceSection = () => {
         <section>
           <div className={style.description}>
             <div className={style.descriptionText}>
-              <p>
+              <p className={style.slide_left}>
                 {" "}
                 <br /> <br />
                 <span>
@@ -75,7 +75,7 @@ export const ServiceSection = () => {
             </div>
             <div className={style.descriptionImg}>
               <img
-                className={"imgStyle"}
+                className={(style.imgstyle, style.slide_right)}
                 src={
                   selected === "Brand Strategy"
                     ? BrandGuideLineImage

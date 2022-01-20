@@ -14,17 +14,7 @@
 .half {
   text-align: left;
 }
-@media only screen and (max-width: 769px) {
-  .descriptionText {
-    text-align: center;
-    min-width: 100%;
-  }
-  .descriptionImg {
-    text-align: center;
-    min-width: 100%;
-    overflow: hidden;
-  }
-}
+
 .halfi {
   min-width: 100%;
   min-height: 100%;
@@ -36,4 +26,41 @@
 .descriptionImg {
   width: 40%;
   object-fit: cover;
+}
+
+.slide_left {
+  animation: slide_left 1.8s ease-in-out;
+}
+.slide_right {
+  animation: slide_right 1.8s ease-in-out;
+}
+@keyframes slide_right {
+  0% {
+    transform: translateX(150%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide_left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .descriptionText {
+    text-align: center;
+    min-width: 100%;
+  }
+  .descriptionImg {
+    text-align: center;
+    min-width: 100%;
+    overflow: hidden;
+  }
 }
