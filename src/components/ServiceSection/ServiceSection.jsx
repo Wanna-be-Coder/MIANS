@@ -23,7 +23,6 @@ export const ServiceSection = () => {
     setselected(text);
   };
   const handleAnimationEnd = () => {
-    console.log("animation ended");
     setFade(false);
   };
   // let descriptionClass = {
