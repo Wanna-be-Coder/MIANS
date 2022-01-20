@@ -75,7 +75,6 @@ export const ServiceSection = () => {
             </div>
             <div className={style.descriptionImg}>
               <img
-                className="imgstyle"
                 src={
                   selected === "Brand Strategy"
                     ? BrandGuideLineImage
