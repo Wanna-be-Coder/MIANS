@@ -47,7 +47,7 @@ export const ServiceSection = () => {
       </div>
       <br />
 
-      <div id="description">
+      <div>
         <div className={style.tabSections}>
           <TabButton
             name="Brand Strategy"
@@ -86,7 +86,7 @@ export const ServiceSection = () => {
               }
               onAnimationEnd={() => handleAnimationEnd()}
             >
-              <p>
+              <p id="description">
                 {" "}
                 <br /> <br />
                 <span>
