@@ -740,48 +740,48 @@
 .landing-body .landing-wrapper #header .header-content button {
   width: 170px;
 }
-.landing-body .landing-wrapper #features {
+.landing-body .landing-wrapper #services {
   background-color: #ffffff;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
 }
-.landing-body .landing-wrapper #features > div {
+.landing-body .landing-wrapper #services > div {
   width: 1200px;
   margin: 0 auto;
   text-align: center;
   padding: 60px 0 75px 0;
   color: #292b2c;
 }
-.landing-body .landing-wrapper #features > div .features-content {
+.landing-body .landing-wrapper #services > div .services-content {
   text-align: left;
 }
 .landing-body
   .landing-wrapper
-  #features
+  #services
   > div
-  .features-content
+  .services-content
   .feature-header {
   height: 47px;
   position: relative;
 }
 .landing-body
   .landing-wrapper
-  #features
+  #services
   > div
-  .features-content
+  .services-content
   .feature-header
   img {
   position: absolute;
   bottom: 0;
 }
-.landing-body .landing-wrapper #features > div .features-content h3 {
+.landing-body .landing-wrapper #services > div .services-content h3 {
   font-size: 18px;
 }
-.landing-body .landing-wrapper #features > div .features-content p {
+.landing-body .landing-wrapper #services > div .services-content p {
   font-size: 14px;
   margin: 6px 0 0 0;
   line-height: 1.5;
 }
-.landing-body .landing-wrapper #features > div .features-content .col-12 {
+.landing-body .landing-wrapper #services > div .services-content .col-12 {
   padding: 20px;
 }
 .landing-body .landing-wrapper #showcase-content-wrapper {
@@ -856,49 +856,43 @@
   background-image: linear-gradient(to bottom, #563d7c, #6f5499);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="#563d7c", endColorStr="#6f5499");
 }
-.landing-body .landing-wrapper #pricing {
+.landing-body .landing-wrapper #team {
   background-color: #ffffff;
   padding: 60px 0 75px 0;
   text-align: center;
 }
-.landing-body .landing-wrapper #pricing > div {
+.landing-body .landing-wrapper #team > div {
   width: 1200px;
   margin: 0 auto;
 }
-.landing-body .landing-wrapper #pricing > div h1 {
+.landing-body .landing-wrapper #team > div h1 {
   font-size: 2.5rem;
   font-weight: 600;
   margin: 15px 0 45px 0;
 }
-.landing-body .landing-wrapper #pricing > div .col-12 .price-type {
+.landing-body .landing-wrapper #team > div .col-12 .price-type {
   border: 1px solid #dddddd;
   height: 100%;
   color: #6a6a7d;
   box-sizing: border-box;
   border-radius: 3px;
 }
-.landing-body .landing-wrapper #pricing > div .col-12 .price-type h3 {
+.landing-body .landing-wrapper #team > div .col-12 .price-type h3 {
   font-size: 18px;
   margin: 0 0 5px 0;
 }
-.landing-body
-  .landing-wrapper
-  #pricing
-  > div
-  .col-12
-  .price-type
-  .price-header {
+.landing-body .landing-wrapper #team > div .col-12 .price-type .price-header {
   background-color: #f5f5f5;
   padding: 30px;
   border-bottom: 1px solid #dddddd;
 }
-.landing-body .landing-wrapper #pricing > div .col-12 .price-type .price-for {
+.landing-body .landing-wrapper #team > div .col-12 .price-type .price-for {
   color: #bdc3c9;
   font-weight: bold;
 }
 .landing-body
   .landing-wrapper
-  #pricing
+  #team
   > div
   .col-12
   .price-type
@@ -906,44 +900,38 @@
   span {
   color: #6a6a7d;
 }
-.landing-body
-  .landing-wrapper
-  #pricing
-  > div
-  .col-12
-  .price-type
-  .price-footer {
+.landing-body .landing-wrapper #team > div .col-12 .price-type .price-footer {
   padding: 10px 60px 30px 60px;
 }
-.landing-body .landing-wrapper #pricing > div .col-12 .price-type ul {
+.landing-body .landing-wrapper #team > div .col-12 .price-type ul {
   padding: 0;
   margin-top: 0;
   min-height: 175px;
 }
-.landing-body .landing-wrapper #pricing > div .col-12 .price-type ul li {
+.landing-body .landing-wrapper #team > div .col-12 .price-type ul li {
   color: #6ba6d9;
   list-style-type: none;
   padding: 10px 30px 10px 10px;
   border-bottom: 1px solid #dddddd;
 }
-.landing-body .landing-wrapper #pricing > div .col-12 .price-type ul li span {
+.landing-body .landing-wrapper #team > div .col-12 .price-type ul li span {
   margin-left: 12px;
 }
-.landing-body .landing-wrapper #pricing > div .col-12 .price-type button {
+.landing-body .landing-wrapper #team > div .col-12 .price-type button {
   width: 100%;
 }
-.landing-body .landing-wrapper #video {
+.landing-body .landing-wrapper #book {
   padding: 60px 0 75px 0;
   text-align: left;
 }
-.landing-body .landing-wrapper #video > div {
+.landing-body .landing-wrapper #book > div {
   width: 1200px;
   margin: 0 auto;
 }
-.landing-body .landing-wrapper #video > div .video-content {
+.landing-body .landing-wrapper #book > div .book-content {
   text-align: right;
 }
-.landing-body .landing-wrapper #video > div .video-content p {
+.landing-body .landing-wrapper #book > div .book-content p {
   line-height: 1.5;
 }
 .landing-body .landing-wrapper #footer {
@@ -1037,10 +1025,10 @@
     width: 100%;
     padding: 250px 20px 150px 20px;
   }
-  .landing-body .landing-wrapper #features {
+  .landing-body .landing-wrapper #services {
     padding: 0 50px;
   }
-  .landing-body .landing-wrapper #features > div {
+  .landing-body .landing-wrapper #services > div {
     width: 100%;
   }
   .landing-body .landing-wrapper #showcase-content-wrapper {
@@ -1061,22 +1049,22 @@
   .landing-body .landing-wrapper #stats > div .stat-card {
     padding: 10px 7px;
   }
-  .landing-body .landing-wrapper #pricing > div {
+  .landing-body .landing-wrapper #team > div {
     width: 100%;
     padding: 0 50px;
     box-sizing: border-box;
   }
-  .landing-body .landing-wrapper #video > div {
+  .landing-body .landing-wrapper #book > div {
     width: 100%;
   }
-  .landing-body .landing-wrapper #video > div .video-container {
+  .landing-body .landing-wrapper #book > div .book-container {
     float: none;
     text-align: center;
   }
-  .landing-body .landing-wrapper #video > div .video-content {
+  .landing-body .landing-wrapper #book > div .book-content {
     text-align: center;
   }
-  .landing-body .landing-wrapper #video > div iframe {
+  .landing-body .landing-wrapper #book > div iframe {
     width: 360px;
     height: 220px;
   }
@@ -1102,7 +1090,7 @@
   .landing-body .landing-wrapper #showcase-content-wrapper .layout-image {
     width: 300px;
   }
-  .landing-body .landing-wrapper #video > div iframe {
+  .landing-body .landing-wrapper #book > div iframe {
     width: 300px;
     height: 200px;
   }
